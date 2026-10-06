@@ -1,7 +1,7 @@
 const http = require("node:http");
 const { randomUUID } = require("node:crypto");
 
-const PRICE = 100;
+const PRICE = 80;
 
 const server = http.createServer((req, res) => {
   const path = new URL(req.url, "http://localhost").pathname;
